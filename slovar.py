@@ -6,7 +6,7 @@ from pyfiglet import Figlet
 
 font_text = Figlet(font="slant")
 print(font_text.renderText("FireBrut"))
-chars = '1234567890&$%#&&abcdefjs'
+chars = '1234567890'
 number = input('количество паролей?'+ "\n")
 length = input('длина пароля?'+ "\n")
 number = int(number)
