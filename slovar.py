@@ -8,7 +8,7 @@ from pyfiglet import Figlet
 named_tuple = time.localtime() # получить struct_time
 time_string = time.strftime("%m/%d/%Y, %H:%M:%S", named_tuple)
 
-print("Дата и время:", time_string)
+print("Дата и время: ", time_string)
 
 font_text = Figlet(font="slant")
 print(font_text.renderText("FireBrut"))
